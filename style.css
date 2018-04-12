@@ -1,0 +1,42 @@
+body {
+  font-family: arial;
+  color: #666;
+  font-size : 14px;
+}
+
+.board,
+.container {
+  width: 250px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 20px;
+  margin: auto;
+  border: #ccc solid 1px;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 90%;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  text-align: center;
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+button:focus{
+    outline: none;
+}
